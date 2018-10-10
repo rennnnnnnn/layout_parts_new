@@ -2,4 +2,196 @@
 
 /* 回答はここに書いてね */
 
+
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.button{
+  display: inline-block;
+  margin-left: 10px;
+  color:#fff;
+
+}
+
+.bg-blue{
+  background-color: #00bcd4;
+}
+.bg-pink{
+  background-color: #ff4081;
+}
+
+.bg-gray{
+  background-color: #e5e5e5;
+}
+
+.bg-white{
+  color: black;
+  background-color: white;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
+
+}
+.small{
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 15px;
+  border-radius: 3px;
+
+}
+.middle{
+  font-size:20px;
+  line-height: 32px;
+  padding: 0 20px;
+  border-radius: 5px;
+
+
+}
+.large{
+  font-size:24px;
+  line-height: 38px;
+  padding: 0 25px;
+  border-radius: 7px;
+
+}
+
+.q8_form{
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+.q8_form_title{
+  position: relative;
+  margin-bottom: 20px;
+}
+.q8_form_title::before{
+  content: "";
+  width: 100%;
+  height: 1px;
+  top: 50%;
+  background-color: #ccc;
+  position: absolute;
+}
+.q8_form_title_text{
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.q8_left{
+  float: left;
+  width: 300px;
+}
+
+.q8_left_contents{
+  margin-bottom: 20px;
+}
+
+
+.q8_right{
+  float: right;
+  width: 380px;
+  padding-left: 20px;
+
+
+}
+.clearfix li{
+  margin-top: 20px;
+}
+
+.clearfix li:first-child{
+  margin-top: 0;
+}
+.q8_left_contents_title{
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+
+}
+
+.star{
+  color: red;
+}
+
+.q8_left_contents_box{
+  float: right;
+  width: 180px;
+
+}
+
+.q8_radio{
+  cursor: pointer;
+}
+
+.q8_radio_btn{
+  display: none;
+}
+
+.q8_radio_text{
+  position: relative;
+  /*display: inline-block;*/
+
+}
+.q8_radio_text::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.q8_radio_text::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+}
+.q8_select_contents{
+  width: 100%;
+  padding: 5px;
+  line-height: 12px;
+}
+
+.q8_checkbox{
+  text-align: right;
+}
+
+.q8_main_bottom{
+  text-align: right;
+}
+
+.q8_main_bottom_btn{
+  padding: 0 10px;
+  color: #fff;
+  background-color: #00BCD4;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 10%;
+
+}
+
+.q8_right_form{
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+  border:#fff;
+
+}
 /* 回答はここに書いてね */

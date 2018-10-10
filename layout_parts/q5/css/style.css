@@ -2,4 +2,109 @@
 
 /* 回答はここに書いてね */
 
+.q5-container{
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background: #ECF1F2;
+  position: relative;
+
+}
+
+.q5-container-box{
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+
+}
+
+.eight{
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  background-color: #de70cf;
+  z-index: 8;
+}
+
+.eight::before{
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  left: 80px;
+  background-color: #ffefd3;
+
+}
+.five{
+  position: absolute;
+  bottom: 40px;
+  left: 200px;
+  background-color: #9fd6d2;
+  z-index: 5;
+}
+
+.nine{
+  background-color: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.one{
+  position: absolute;
+  background-color: #ffefd3;
+  top: 40px;
+  left: 200px;
+  z-index: 1;
+}
+
+
+
+.seven{
+  position: absolute;
+  background-color: #deae70;
+  left: 40px;
+  top: 200px;
+  z-index: 7;
+}
+.four{
+  position: absolute;
+  bottom: 120px;
+  right: 120px;
+  background-color: #8b7a5e;
+  z-index: 4;
+
+}
+
+.six{
+  position: absolute;
+  bottom: 120px;
+  left: 120px;
+  background-color: #fffee4;
+  z-index: 6;
+
+}
+
+.two{
+  position: absolute;
+  top: 120px;
+  right: 120px;
+  background-color: #7084de;
+  z-index: 2;
+
+}
+
+.three{
+  position: absolute;
+  background-color: #d0ecea;
+  right: 40px;
+  top: 200px;
+  z-index: 3;
+
+}
 /* 回答はここに書いてね */
+
