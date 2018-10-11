@@ -64,7 +64,9 @@
 .inner_item:last-child{
   margin-right: 0;
 }
-
+.margin_none{
+  margin-left: 0;
+}
 .flex_contents{
   display: flex;
   justify-content: space-between;

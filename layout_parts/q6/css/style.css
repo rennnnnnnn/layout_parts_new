@@ -24,6 +24,7 @@
 }
 .margin{
   margin: 0 auto;
+  display:block;
 }
 
 .q6_around{
