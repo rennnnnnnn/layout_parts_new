@@ -18,11 +18,11 @@
   font-size: 30px;
   text-align: center;
   line-height: 100px;
+  position: absolute;
 
 }
 
 .eight{
-  position: absolute;
   top: 120px;
   left: 120px;
   background-color: #de70cf;
@@ -40,7 +40,6 @@
 
 }
 .five{
-  position: absolute;
   bottom: 40px;
   left: 200px;
   background-color: #9fd6d2;
@@ -55,7 +54,6 @@
 }
 
 .one{
-  position: absolute;
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
@@ -65,14 +63,12 @@
 
 
 .seven{
-  position: absolute;
   background-color: #deae70;
   left: 40px;
   top: 200px;
   z-index: 7;
 }
 .four{
-  position: absolute;
   bottom: 120px;
   right: 120px;
   background-color: #8b7a5e;
@@ -81,7 +77,6 @@
 }
 
 .six{
-  position: absolute;
   bottom: 120px;
   left: 120px;
   background-color: #fffee4;
@@ -90,7 +85,6 @@
 }
 
 .two{
-  position: absolute;
   top: 120px;
   right: 120px;
   background-color: #7084de;
@@ -99,7 +93,6 @@
 }
 
 .three{
-  position: absolute;
   background-color: #d0ecea;
   right: 40px;
   top: 200px;

@@ -13,9 +13,10 @@
   display: inline-block;
   margin-left: 10px;
   color:#fff;
-
 }
-
+.button:first-of-type{
+  margin-left: 0;
+}
 .bg-blue{
   background-color: #00bcd4;
 }
@@ -88,45 +89,63 @@
   width: 300px;
 }
 
-.q8_left_contents{
-  margin-bottom: 20px;
-}
-
-
 .q8_right{
   float: right;
   width: 380px;
-  padding-left: 20px;
-
-
 }
-.clearfix li{
+
+
+.q8_left_main{
+  margin-bottom: 20px;
+}
+
+.q8_left_main .clearfix{
   margin-top: 20px;
 }
-
-.clearfix li:first-child{
-  margin-top: 0;
+.q8_left_main .clearfix:first-child{
+  margin-top: 0px;
 }
-.q8_left_contents_title{
+
+
+.q8_left_main_text{
   float: left;
   width: 100px;
   line-height: 25px;
   text-align: right;
-
 }
 
-.star{
+.required{
   color: red;
 }
 
-.q8_left_contents_box{
+.q8_left_main_content{
   float: right;
   width: 180px;
+}
 
+.q8_input{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  border-style: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+.q8_unit{
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR…jMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 16px 18px;
+  background-position: 98% 50%;
+  cursor: auto;
 }
 
 .q8_radio{
-  cursor: pointer;
+cursor: pointer;
 }
 
 .q8_radio_btn{
@@ -135,9 +154,23 @@
 
 .q8_radio_text{
   position: relative;
-  /*display: inline-block;*/
-
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
 }
+
+.q8_radio_text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
 .q8_radio_text::before{
   content: "";
   position: absolute;
@@ -149,39 +182,56 @@
   border: 1px solid #ccc;
   border-radius: 50%;
 }
-.q8_radio_text::after{
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 8px;
-  height: 8px;
-  background-color: #00BCD4;
-  border-radius: 50%;
-}
-.q8_select_contents{
-  width: 100%;
-  padding: 5px;
-  line-height: 12px;
-}
+
+.q8_radio_text::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    margin-top: 4px;
+    background-color: #00BCD4;
+    border-radius: 50%;
+  }
 
 .q8_checkbox{
   text-align: right;
 }
+.q8_checkbox_btn{
+  display: none;
+}
 
-.q8_main_bottom{
+
+.q8_checkbox_text{
+    position: relative;
+    display: inline-block;
+    padding-left: 24px;
+
+}
+
+.q8_checkbox_text:before{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: -9px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    content: '';
+}
+.q8_left_bottom{
   text-align: right;
 }
-
-.q8_main_bottom_btn{
+.q8_left_bottom_btn{
   padding: 0 10px;
-  color: #fff;
+  border-radius: 5px;
   background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
   font-size: 16px;
-  line-height: 24px;
-  border-radius: 10%;
-
+  line-height: 26px;
 }
-
 .q8_right_form{
   width: 100%;
   height: 203px;
@@ -192,6 +242,18 @@
   box-sizing: border-box;
   resize: none;
   border:#fff;
+}
+.q8_right_text{
+    width: 100%;
+    height: 203px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #FFF;
+    font-size: 12px;
+    box-sizing: border-box;
+    resize: none;
+    border: none;
 
 }
+
 /* 回答はここに書いてね */

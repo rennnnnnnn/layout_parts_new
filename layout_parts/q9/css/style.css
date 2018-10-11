@@ -16,13 +16,13 @@
   transition: all .5s;
 }
 
-.q9_trans_thumb:hover {
+.q9_transition:hover .q9_trans_thumb{
   transform: scale(1.5);
 
  }
 
 
-..q9_trans_thumb:hover .q9_trans_box {
+.q9_transition:hover .q9_trans_box {
     bottom: 0;
 }
 

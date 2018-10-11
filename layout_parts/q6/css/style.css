@@ -2,20 +2,55 @@
 
 /* 回答はここに書いてね */
 
-.q6__box_contents{
-  text-align: center;
-  width: 90px;
-  margin: 0 auto;
 
+.q6__box{
+  display: inline-block;
+  width: 300px;
+  margin: 0 10px;
+  padding: 10px 0;
+  font-size: 16px;
+  background-color: #fff;
 }
 
-.q6_box_contents_text{
-  width: 100%;
+.q6_box_inner{
+  text-align: center;
+}
+
+.q6_box_inner_text{
+  display: inline-block;
+  width: 90px;
   padding: 10px 0;
   background-color:#e6f2ff;
 }
+.margin{
+  margin: 0 auto;
+}
 
-.q6--around_box{
+.q6_around{
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #ECF1F2;
+}
+
+.table{
+  display: table;
+}
+
+.q6_box{
+  display: table-cell;
+  background-color: #ECF1F2;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.q6_box_text{
+  display: inline-block;
+  padding: 10px;
+  background-color: #FFF;
+}
+.flex{
   display: flex;
   justify-content: center;
   align-items: center;
