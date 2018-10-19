@@ -66,6 +66,7 @@
 }
 .margin_none{
   margin-left: 0;
+  width: 205px;
 }
 .flex_contents{
   display: flex;
